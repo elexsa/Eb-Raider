@@ -5,20 +5,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   
   <title>rideers</title>
-
+  
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
 	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Darker+Grotesque">
 
     <script>
-        
 
-        $(document).ready(function(){
-        
-        });
+
+      $(document).ready(function(){
+
+      });
     </script>
 
 
@@ -26,38 +27,65 @@
 </head>
 <body style="background: #ffffff ; padding: 0px; margin: 0px;">
 
-  
-<div class="navbar py-0" style="background: rgba(255, 255, 255, 0);">
-  <div class="blured">
-    <div class="col-4 text-center">
-      <a href="" id="youtube_link" class="nav-link">
-        <button id="youtube_btn" type="btn" style="height: 60px; width: 130px;" class="btn">
-          <img src="assets/youtube-logo-transparent.png" width="100px">
-        </button>
+
+
+
+
+<div id="header" class="header navbar row py-0">
+  <div class="row">
+    <div class="col-4 text-center center" >
+      <a href="https://www.youtube.com/@Seriy_Rider" id="yt_link" class="center" style="display: flex; z-index: 256; width: 20vw;">
+        <img src="assets/youtube-logo-transparent.png" width="100px">
       </a>
-      <div class="container container"></div>
+      <div id="yt_logo_bg" class="blured_bg yt_bg_one"></div>
     </div>
 
     
-    
-    <div class="col-4" style="left:50vw; padding: 0; display: flex; align-items: center; justify-content: center;">
-      
-        <p class="logo_txt">Eb Raider</p>
-     
+    <div class="col-4 center" >
+        <a id="logo_link" class="logo_txt" href="">Eb Raider</a>
     </div>
-      
-    <div class="col-4 text-center" id="patreon_link_area">
-      <a href="" id="patreon_link" class="nav-link">
-        <button id="patreon_btn" type="btn" style="height: 77px; width: 130px;" class="btn">
-          <img src="assets/patreon-logo-transparent.png" width="100px">
-        </button>
+    
+
+    <div class="col-4 text-center center" >
+      <a href="" id="ptr_link" class="center" style="display: flex; z-index: 256; width: 20vw;">
+        <img src="assets/patreon-logo-transparent.png" width="100px">
       </a>
+      <div id="ptr_logo_bg" class="blured_bg ptr_bg_one"></div>
     </div>  
   </div>
+
+  <div id="inner_navbar" class="row">
+    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 3</a>
+          </li>
+        </ul>
+      
+    
+    </nav>
+  </div>
+
+
+
+
+
+
 </div>   
 
-<div id="content" class="">
 
+
+<div id="center" class="">
+  <div ></div>
 </div>
 
 
