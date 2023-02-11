@@ -1,7 +1,8 @@
-div.blured_bg{
+div.main_link_bg{
     width: 20vw;
     height: 60%;
     max-height: 50px;
+    max-width: 250px;
     
     filter: blur(0px);
     border-radius: 13px;
@@ -9,6 +10,33 @@ div.blured_bg{
 
     transition: all 1s;
     
+}
+
+div.blured {
+    background: rgba(37, 37, 37, 0.1);
+    backdrop-filter: blur(6.5px);
+    width: 100%;
+    position: absolute;
+    height: 210px;
+}
+
+img.welcome_img {
+    width: 100vw;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+p.welcome_text { 
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FDFFF5;
 }
 
 div.yt_bg_one {
@@ -91,6 +119,7 @@ div.header{
     margin-bottom: 10px;
     position: relative;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .logo_txt:hover {
